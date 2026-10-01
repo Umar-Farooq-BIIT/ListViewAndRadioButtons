@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:list_view_example_1/Radio/grade.dart';
 import 'package:list_view_example_1/Radio/mcq.dart';
+import 'package:list_view_example_1/Radio/mcqlistscreen.dart';
 import 'package:list_view_example_1/contalistscreen.dart';
 
 void main() {
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MCQScreen()
+      home: MCQListScreen()
     );
   }
 }

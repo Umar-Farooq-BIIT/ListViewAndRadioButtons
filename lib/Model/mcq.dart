@@ -1,6 +1,7 @@
 class MCQ{
   String question;
   String opt1,opt2,opt3,correct;
+  String ?userAnswer;
   MCQ({required this.question,required this.opt1,
   required this.opt2,required this.opt3,required this.correct});
 }
